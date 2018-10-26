@@ -1,13 +1,13 @@
 {
-  "main.css": "/gluizbr/react-test/static/css/main.d9e87d94.chunk.css",
-  "main.js": "/gluizbr/react-test/static/js/main.8420e328.chunk.js",
-  "main.js.map": "/gluizbr/react-test/static/js/main.8420e328.chunk.js.map",
-  "static/js/1.5b966dc2.chunk.js": "/gluizbr/react-test/static/js/1.5b966dc2.chunk.js",
-  "static/js/1.5b966dc2.chunk.js.map": "/gluizbr/react-test/static/js/1.5b966dc2.chunk.js.map",
-  "runtime~main.js": "/gluizbr/react-test/static/js/runtime~main.7c729e21.js",
-  "runtime~main.js.map": "/gluizbr/react-test/static/js/runtime~main.7c729e21.js.map",
-  "static/css/main.d9e87d94.chunk.css.map": "/gluizbr/react-test/static/css/main.d9e87d94.chunk.css.map",
-  "index.html": "/gluizbr/react-test/index.html",
-  "precache-manifest.5558f65f4b5cee9eebf0695945bc1f29.js": "/gluizbr/react-test/precache-manifest.5558f65f4b5cee9eebf0695945bc1f29.js",
-  "service-worker.js": "/gluizbr/react-test/service-worker.js"
+  "main.css": "/react-test/static/css/main.d9e87d94.chunk.css",
+  "main.js": "/react-test/static/js/main.8420e328.chunk.js",
+  "main.js.map": "/react-test/static/js/main.8420e328.chunk.js.map",
+  "static/js/1.5b966dc2.chunk.js": "/react-test/static/js/1.5b966dc2.chunk.js",
+  "static/js/1.5b966dc2.chunk.js.map": "/react-test/static/js/1.5b966dc2.chunk.js.map",
+  "runtime~main.js": "/react-test/static/js/runtime~main.745cc6a5.js",
+  "runtime~main.js.map": "/react-test/static/js/runtime~main.745cc6a5.js.map",
+  "static/css/main.d9e87d94.chunk.css.map": "/react-test/static/css/main.d9e87d94.chunk.css.map",
+  "index.html": "/react-test/index.html",
+  "precache-manifest.7a273b78c08ba358b55a70f72d41ceaf.js": "/react-test/precache-manifest.7a273b78c08ba358b55a70f72d41ceaf.js",
+  "service-worker.js": "/react-test/service-worker.js"
 }

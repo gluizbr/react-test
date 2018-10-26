@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gluizbr/react-test/precache-manifest.5558f65f4b5cee9eebf0695945bc1f29.js"
+  "/react-test/precache-manifest.7a273b78c08ba358b55a70f72d41ceaf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gluizbr/react-test/index.html", {
+workbox.routing.registerNavigationRoute("/react-test/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
