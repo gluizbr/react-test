@@ -1,15 +1,14 @@
-//const heading = <h1 className="site-heading">Hello, React</h1>;
 import React, { Component } from 'react';
 import Table from './Table';
 import Form from './Form';
-
-const name = 'Tania';
-const Heading = () => <h1>Hello, {name}</h1> ;
+import Heading from './Heading';
+import HeadingForm from './HeadingForm';
 
 class App extends Component {
   state = {
-    characters : [],
-    data: []
+    characters: [],
+    data: [],
+    myname: [],
   };
 
   removeCharacter = index => {
@@ -43,13 +42,15 @@ class App extends Component {
 
     return (
       <div className="container">
-        <ul>{result}</ul>
-        <Heading />
+        <Heading myname={this.state.myname} />
+        <HeadingForm handleHeadingSubmit={this.handleHeadingSubmit} />
         <Table 
           characterData={this.state.characters}
           removeCharacter={this.removeCharacter}
         />
         <Form handleSubmit={this.handleSubmit}/>
+        <br></br>
+        <ul>{result}</ul>
       </div>
     );
   }
@@ -57,25 +58,10 @@ class App extends Component {
   handleSubmit = character => {
     this.setState({characters: [...this.state.characters, character]});
   }
+
+  handleHeadingSubmit = name => {
+    this.setState({myname: [name.myname]});
+  }
 }
 
 export default App;
-
-/*
-{
-      name: 'Charlie',
-      job: 'Janitor',
-    },
-    {
-      name: 'Mac',
-      job: 'Bouncer',
-    },
-    {
-      name: 'Dee',
-      job: 'Aspiring actress',
-    },
-    {
-      name: 'Dennis',
-      job: 'Bartender',
-    }
-*/

@@ -2,7 +2,7 @@
   "name": "react-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gluizbr.github.io/react-test/",
+  "homepage": "https://gluizbr.github.io/react-test",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
