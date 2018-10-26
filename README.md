@@ -1,5 +1,3 @@
-I've stopped in Submitting Form Data
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -105,7 +103,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
   - [`npm run build` fails on Heroku](#npm-run-build-fails-on-heroku)
   - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
   - [Moment.js locales are missing](#momentjs-locales-are-missing)
-- [Alternatives to Ejecting](#alternatives-to-ejecting)
+- [Alternatives to Ejecting](#alternatrootives-to-ejecting)
 - [Something Missing?](#something-missing)
 
 ## Updating to New Releases
